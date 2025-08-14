@@ -2,7 +2,7 @@
 **기간 : 2025년 8월 13일 11시 59분까지**
 
 이때까지 배웠던 내용을 기반으로 인프런 사이트를 클론코딩 해봅시다!
-[인프런 사이트 바로가기]([https://m.bunjang.co.kr/](https://www.inflearn.com/?utm_source=google&utm_medium=pmax&utm_campaign=purchase_regular_g-purchase-main&utm_content=_branding_all&utm_term=_240401_no-1&gad_source=1&gad_campaignid=20714471420&gbraid=0AAAAADAClSDQN-PjRi6uGUgyWo1Bm1Sr4&gclid=Cj0KCQjwqebEBhD9ARIsAFZMbfz7nO0H4Ar1Vui079cVSwOTOysgP8TaEy-1V96RkQQXQjU4Vfx2azkaAha3EALw_wcB))
+[인프런 사이트 바로가기](https://www.inflearn.com/?utm_source=google&utm_medium=pmax&utm_campaign=purchase_regular_g-purchase-main&utm_content=_branding_all&utm_term=_240401_no-1&gad_source=1&gad_campaignid=20714471420&gbraid=0AAAAADAClSDQN-PjRi6uGUgyWo1Bm1Sr4&gclid=Cj0KCQjwqebEBhD9ARIsAFZMbfz7nO0H4Ar1Vui079cVSwOTOysgP8TaEy-1V96RkQQXQjU4Vfx2azkaAha3EALw_wcB)
 
 커밋 컨벤션 잘 지켜주시고, 제출기한 꼭 지켜주세요!!
 
