@@ -1,0 +1,468 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.first-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border : 0px solid ;
+}
+
+.Main-Logo {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-left: 230px;
+}
+
+.Edu-Btn {
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: #25262B;
+    font-size: 14px;
+}
+
+.seperate {
+    margin: 0 8px;
+    padding: 0;
+    color: #D5DBED;
+}
+
+.Career-Logo {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.Car-Btn {
+    border: none;
+    background-color: white;
+    color: #868E92;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.Meun {
+    margin-left: 950px;; 
+    display: flex;
+    gap: 5px; 
+    
+
+}
+
+.Meun button {
+    border: none;
+    background-color: white;
+    color : #1A1B1E;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    padding: 0 10px;
+}
+
+.Meun button:not(:last-child)::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    color: #ccc;
+}
+
+.second-div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-left: 250px;
+    border-top: 1px solid #ccc;
+    position: relative;
+}
+
+.Infearn-img {
+    height: 20px;   
+    cursor: pointer;            
+}
+
+.Btn-Container {
+    display: flex;
+    gap: 10px;                  
+}
+
+.Btn-Container button {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    color: #2C2E33;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.N-Btn {
+    position : relative;
+    border : none;
+    background-color: #FA5252;
+    border-radius : 25px;
+    color : white ;
+    top : -15px;
+    left : -225px;
+}
+
+.input {
+    display : flex;
+    padding : 10px;
+    border : 1px solid #ced4da;
+    width : 700px;
+    height : 17px;
+    border-radius : 9px;
+    background-color : #F6F6F6;
+    box-shadow: black;
+}
+
+.Korean-Container {
+    display: flex;
+    align-items: center;
+    gap : 5px;
+    padding : 15px;
+    cursor: pointer;
+}
+
+.World-Logo {
+    width : 14px;
+    height : 30px;
+}
+
+.Korean {
+    font-size : 14px;
+    margin-top : 3px;
+    color : #868E92
+}   
+
+.Login-Btn {
+    background-color : #00C471;
+    color : white;
+    border : none;
+    border-radius : 6px;
+    width : 65px;
+    height : 38px;
+    padding : 13px;
+    cursor: pointer;
+}
+
+.Search-Logo {
+    width : 25px;
+    height : 20px;
+}
+
+.Search {
+    display: flex;
+    flex-direction: column; 
+    padding-left : 270px;
+    cursor: pointer;
+}
+
+.search-text {
+    display: flex;
+    gap: 35px; 
+    color : #868E92;
+}
+
+.sep {
+    color: #a7a7a7;
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+}
+
+.Ai-Logo-List {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;           
+    align-items: center;     
+    gap: 30px;               
+}
+
+.Ai-Logo-List li {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    gap: 10px;        
+    font-size: 13px;    
+    cursor: pointer;  
+    position: relative;
+    top : -17px;  
+}
+
+.Ai-Logo-List img {
+    width: 24px;    
+    height: 24px;  
+    object-fit: contain;  
+    margin-right: 8px; 
+    vertical-align: middle; 
+    cursor: pointer;
+  }
+
+.Button-Container {
+    border-top : 1px solid #ced4da;
+    padding : 30px;
+    padding-left :255px;
+}
+
+.Skill-Btn {
+    font-size : 18px;
+    border : 1px solid #ced4da;
+    border-radius : 5px;
+    background-color : white;
+    color : #a7a7a7;
+    cursor: pointer;
+    
+}
+
+.Skill-img {
+    width : 15px;
+}
+
+.Btn {
+    display: inline-flex;
+    align-items: center;  
+    font-size: 18px;
+    border: 1px solid #ced4da;
+    border-radius: 25px;
+    background-color: white;
+    padding: 4px 12px;
+    gap: 10px; 
+    cursor: pointer;
+}
+
+.Btn img {
+    order: 2; 
+}
+
+.Btn span {
+    order: 1; 
+}
+
+.Robot-img {
+    width : 24px;
+    height : 24;
+}
+
+.Chick-img {
+    width : 24px;
+    height : 24;
+}
+
+.Bird-img {
+    width : 24px;
+    height : 24;
+}
+
+.Free-Btn {
+    display: inline-flex;
+    align-items: center;  
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 25px;
+    background-color: white;
+    padding: 4px 12px;
+    gap: 10px; 
+    cursor: pointer;
+}
+
+.Discount-Btn {
+    display: inline-flex;
+    align-items: center;  
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 25px;
+    background-color: white;
+    padding: 4px 12px;
+    gap: 10px; 
+    cursor: pointer;
+}
+
+.Recommend-Btn {
+    display: inline-flex;
+    align-items: center;  
+    font-size: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    background-color: white;
+    padding: 8px 18px;
+    gap: 10px; 
+    margin-left : 670px;
+    cursor: pointer;
+}
+
+.Main-img {
+    width : 300px;
+    height : 350px;
+    padding-left : 250px;
+    border-radius : 15px;
+}
+
+.first-line {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  
+.course-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);  
+  gap: 20px;                               
+  padding: 20px;
+}
+
+.course-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.course-card img {
+  width: 100%;     
+  height: auto;    
+  display: block;
+}
+
+.course-info {
+  padding: 10px;
+  width: 100%;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  display: block;
+}
+
+.course-teacher {
+  font-size: 13px;
+  color: #555;
+  margin-top: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.course-price {
+  font-weight: bold;
+  margin-top: 8px;
+  color: #000;
+}
+
+.share-container {
+    background-color: #F1F3F5;
+    padding: 50px;
+    display: flex;
+    align-items: center;       
+    justify-content: center;   
+    margin : 60px 200px;
+    position: relative;
+    bottom : -50px;
+    right : -30px;
+
+
+}
+
+.share {
+    position: relative;
+    top : -100px;
+    right : -500px;
+    font-weight: bold;
+    font-size : 28px;
+    border-radius : 5px;
+
+
+}
+
+.share-container {
+    gap: 24px;               
+    padding: 60px;
+    background-color: #F1F3F5;
+    position: relative;
+
+}
+
+.share-img {
+    position: relative;
+    left : -100px;
+    bottom : -50px;
+    cursor: pointer;
+}
+
+.course-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    width: 100%;    /* 리스트 전체 폭 고정 */
+    box-sizing: border-box;
+  }
+
+  .Num-Btn {
+    margin-left : 660px;
+    border : none;
+    padding : 40px;
+  }
+
+  .NUm-Btn {
+    border : 1px solid gray;
+    background-color: white; 
+    width : 40px;
+    padding : 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+.NUM-Btn {
+    border : none;
+    background-color: white; 
+    width : 40px;
+    padding : 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer-div {
+    display: flex;             
+    justify-content: space-between;
+    padding: 120px 50px;
+    background-color: #323846;  
+    color: #a7a7a7;             
+   
+}
+
+.footer-div > div,
+.footer-div > p {
+    display: flex;
+    flex-direction: column;     
+}
+
+.footer-div p:first-child {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer-div p:not(:first-child) {
+    font-size: 14px;
+    line-height: 1.8;
+    cursor: pointer;
+}
+
